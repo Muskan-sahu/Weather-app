@@ -21,7 +21,14 @@ body {
   background-image: url('./assets/warm-bg.jpg');
   
 }
-
+.app2 {
+  background-image: url('./assets/coldWeather.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  
+ 
+}
 main {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
